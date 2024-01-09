@@ -1,9 +1,13 @@
-#introduction
+# Introduction
 
-this is a repository created by sarah
 
-##usage
+This is a repository created by *Sarah*
 
-run this command to execute the application:
 
-'python filename.py'
+## Usage
+
+
+Run this command to execute the application:
+
+
+`python filename.py`
