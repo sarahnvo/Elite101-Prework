@@ -8,6 +8,6 @@ This is a repository created by *Sarah*
 
 
 Run this command to execute the application:
-
+hello
 
 `python filename.py`
