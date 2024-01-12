@@ -12,17 +12,25 @@ options = ['option 1', 'option 2', 'option 3', 'Exit the conversation']
 for option in options:
   print(option)
 
-option_choice = input('Choose an option:')
-if option_choice == 'option 1':
-  print('you chose option 1')
-elif option_choice == 'option 2':
-  print('you chose option 2')
-elif option_choice == 'option 3':
-  print('you chose option 3')
-elif option_choice == 'Exit the conversation':
-  print(f'Goodbye {name}, have a great day!')
-else:
-  print('Invalid option')
+while options != 'Exit the conversation':
+  option_choice = input('\nChoose an option: ')
+  
+  if option_choice == 'option 1':
+    print('you chose option 1')
+    
+  elif option_choice == 'option 2':
+    print('you chose option 2')
+    
+  elif option_choice == 'option 3':
+    print('you chose option 3')
+    
+  elif option_choice == 'Exit the conversation':
+    print(f'Goodbye {name}, have a great day!')
+    quit()
+    
+  else:
+    print('Invalid option')
+    
 
 
 
